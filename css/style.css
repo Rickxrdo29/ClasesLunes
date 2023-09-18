@@ -76,4 +76,51 @@ input[disable] {
 }
 span{
     color: blue;
+       
+}
+
+#title_box {
+    color: black;
+    font-family: 'Poppins' sans-serif;
+    background-color:azure;
+    text-align: center;
+    padding-left: 20px;
+    margin: 50px;
+    border: 1px dashed black;
+    border-radius: 10px;
+    box-shadow:5px 6px 2px 1px rgba(0,0,0,0.1);
+    word-spacing: 15px;
+    letter-spacing: 15px;
+    font-size: 15px;
+}
+
+#box_father{
+    border: 1px solid #000;
+    width: 200px;
+    border-radius: 10px;
+    height: 200px;
+    margin-left: 20px;
+    background-image:url(https://i.pinimg.com/736x/00/8a/a4/008aa48c412fecfffe26b8fb8ec662b4.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}  
+
+@media (min-width: 800px)and (max-width: 1280px){
+
+    body{
+        background-color: red;
+    }
+    h1{
+        text-align: center;
+    }
+    @media (max-width:799px){
+        body{
+            background-image:url(https://i.pinimg.com/736x/00/8a/a4/008aa48c412fecfffe26b8fb8ec662b4.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        
+    }
 }
