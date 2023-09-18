@@ -8,6 +8,10 @@
     font-family: 'Poppins';
 }
 
+body {
+    background-color: aqua;
+}
+
 /* selector de etiqueta */
 h1 {
     /* font-family: 'Poppins'; */
@@ -49,13 +53,13 @@ input[disable] {
     font-size: 20px;
 }
 
-#papa{
+#papa {
     margin-left: 50px;
     border: 2px double rgb(4, 228, 4);
     border-radius: 10px;
 }
 
-.hermanos{
+.hermanos {
     background-color: aquamarine;
     margin: 10px;
     padding: 10px;
@@ -63,64 +67,68 @@ input[disable] {
     box-shadow: 0px 2px;
 }
 
-#nh_uno{
+#nh_uno {
     color: blueviolet;
 }
+
 /* selector descendente hijo */
-#papa > .hermanos > #nh_uno{
+#papa>.hermanos>#nh_uno {
     color: rgb(94, 94, 94);
 }
 
-#papa .nieto{
+#papa .nieto {
     color: rgb(0, 0, 0);
 }
-span{
+
+span {
     color: blue;
-       
+
 }
 
 #title_box {
     color: black;
     font-family: 'Poppins' sans-serif;
-    background-color:azure;
+    background-color: azure;
     text-align: center;
     padding-left: 20px;
     margin: 50px;
     border: 1px dashed black;
     border-radius: 10px;
-    box-shadow:5px 6px 2px 1px rgba(0,0,0,0.1);
+    box-shadow: 5px 6px 2px 1px rgba(0, 0, 0, 0.1);
     word-spacing: 15px;
     letter-spacing: 15px;
     font-size: 15px;
 }
 
-#box_father{
+#box_father {
     border: 1px solid #000;
     width: 200px;
     border-radius: 10px;
     height: 200px;
     margin-left: 20px;
-    background-image:url(https://i.pinimg.com/736x/00/8a/a4/008aa48c412fecfffe26b8fb8ec662b4.jpg);
+    background-image: url(https://i.pinimg.com/736x/00/8a/a4/008aa48c412fecfffe26b8fb8ec662b4.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-}  
+}
 
-@media (min-width: 800px)and (max-width: 1280px){
+@media (min-width: 800px)and (max-width: 1280px) {
 
-    body{
+    body {
         background-color: red;
     }
-    h1{
+
+    h1 {
         text-align: center;
     }
-    @media (max-width:799px){
-        body{
-            background-image:url(https://i.pinimg.com/736x/00/8a/a4/008aa48c412fecfffe26b8fb8ec662b4.jpg);
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-        }
-        
-    }
 }
+
+@media (max-width:799px) {
+    body {
+        background-image: url(https://i.pinimg.com/736x/00/8a/a4/008aa48c412fecfffe26b8fb8ec662b4.jpg) ;
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+        }
+
+    }
